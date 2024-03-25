@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Home"] = "ToDo API Details";
+}
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="breadcrumb-hero">
+            <div class="container">
+                <div class="breadcrumb-hero">
+                    <h2>ToDo API Details</h2>
+                    <p>blurb </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ol>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>ToDo API Details</li>
+            </ol>
+        </div>
+    </section><!-- End Breadcrumbs -->
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/portfolio/construction.jpg" alt="figures posed like they're working construction">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/portfolio/construction.jpg" alt="figures posed like they're working construction">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/portfolio/construction.jpg" alt="figures posed like they're working construction">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: - </li>
+                            <li><strong>Program</strong>: - </li>
+                            <li><strong>Project date</strong>: - -, 2024</li>
+                            <li><strong>Github Repo Link</strong>: <a href="/">/</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description">
+                        <h2>ToDo API Portfolio Detail</h2>
+                        <p>
+                            elaborate here
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Details Section -->
+
+</main><!-- End #main -->

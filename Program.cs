@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PersonalSiteMVC.Data;
+using PersonalSiteMVC.Models;
 
 namespace PersonalSiteMVC
 {
@@ -19,6 +20,8 @@ namespace PersonalSiteMVC
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddOptions<CredentialSettings>().Bind(builder.Configuration.GetSection("Credentials"));
 
             var app = builder.Build();
 

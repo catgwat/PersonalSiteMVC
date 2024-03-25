@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Home"] = "Survive Details";
+}
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="breadcrumb-hero">
+            <div class="container">
+                <div class="breadcrumb-hero">
+                    <h2>"Survive" Details</h2>
+                    <p>.NET Core Console Application where the foundational concepts of C# as a language were learned. I titled my project "Survive". </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ol>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>"Survive" Details</li>
+            </ol>
+        </div>
+    </section><!-- End Breadcrumbs -->
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/portfolio/Screenshot (41).png" alt="hiker in trees ascii art">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/portfolio/Screenshot (43).png" alt="skinwalker ascii art">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="~/assets/img/portfolio/Screenshot (45).png" alt="coyote ascii art">
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Middle Tier</li>
+                            <li><strong>Program</strong>: C#</li>
+                            <li><strong>Project date</strong>: February 19, 2024</li>
+                            <li><strong>Github Repo Link</strong>: <a href="https://github.com/catgwat/Survive">https://github.com/catgwat/Survive</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description">
+                        <h2>"Survive" Portfolio Detail</h2>
+                        <p>
+                            Showcasing my C# skills, this console app challenged me to demonstrate my ability to break down multi-stage processes into steps and to design complex logical structures. The game includes customizing which weapon and skill level your character has as you hike through the Appalachian Mountains and fight off various beasts-- some animals and some supernatural cryptids.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Details Section -->
+
+</main><!-- End #main -->
