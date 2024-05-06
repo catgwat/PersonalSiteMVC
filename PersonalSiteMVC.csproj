@@ -69,8 +69,6 @@
     <Content Remove="wwwroot\assets\img\team\Austin.jpg" />
     <Content Remove="wwwroot\assets\img\team\Ethan.jpg" />
     <Content Remove="wwwroot\assets\img\team\Haley.jpg" />
-    <Content Remove="wwwroot\assets\img\team\Taryn.jpg" />
-    <Content Remove="wwwroot\assets\img\team\Thomas.jpg" />
     <Content Remove="wwwroot\assets\img\testimonials\testimonials-1.jpg" />
     <Content Remove="wwwroot\assets\img\testimonials\testimonials-2.jpg" />
     <Content Remove="wwwroot\assets\img\testimonials\testimonials-3.jpg" />
@@ -235,8 +233,6 @@
     <None Include="wwwroot\assets\img\team\Austin.jpg" />
     <None Include="wwwroot\assets\img\team\Ethan.jpg" />
     <None Include="wwwroot\assets\img\team\Haley.jpg" />
-    <None Include="wwwroot\assets\img\team\Taryn.jpg" />
-    <None Include="wwwroot\assets\img\team\Thomas.jpg" />
     <None Include="wwwroot\assets\img\testimonials\testimonials-1.jpg" />
     <None Include="wwwroot\assets\img\testimonials\testimonials-2.jpg" />
     <None Include="wwwroot\assets\img\testimonials\testimonials-3.jpg" />
